@@ -1,0 +1,464 @@
+@media only screen and (max-width: 1000px){
+    nav{
+      padding: 0 40px 0 50px;
+    }
+
+    .allpros
+    {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .allpros .card
+    {
+      width: 400px;
+    }
+    .projects .menu button
+    {
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 920px) {
+    nav .menu-btn i{
+      display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background: #fff;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 11px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: #2f2fa2;
+    }
+
+.curve .head .wrapper
+{
+  margin-top: 50px;
+  width: 95%;
+}
+.curve .head .wrapper .grid1 .name
+{
+    font-size: 50px;
+
+}
+.curve .head .wrapper .grid1 .name span
+{
+    color: #2f2fa2;
+}
+.curve .head .wrapper .grid1 .prof
+{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.curve .head .wrapper .grid1 .details
+{
+    font-size: 9px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.curve .head .wrapper .grid2 img
+{
+    height: 350px;
+}
+.tasks .taskwrap,
+.tasks .taskwrap1
+{
+  width: 90%;
+}
+.interface
+{
+  height: 1000px;
+}
+.interface .experience
+{
+  transform: translateY(140px);
+  font-size: 25px;
+} 
+.experience .head
+{
+  font-size: 50px;
+  background-color: transparent;
+  color: #fff;
+  transform: translateY(-50px);
+}
+.form {
+  grid-template-columns: 1fr;
+  width: 90%;
+}
+
+.contact-info:before {
+  bottom: initial;
+  top: -75px;
+  right: 65px;
+  transform: scale(0.95);
+}
+
+.contact-form:before {
+  top: -13px;
+  left: initial;
+  right: 70px;
+}
+
+
+.text {
+  margin: 1rem 0 1.5rem 0;
+}
+
+.social-media {
+  padding: 1.5rem 0 0 0;
+}
+
+  }
+  @media only screen and (max-width: 650px)
+  {  
+    .curve .head .wrapper
+    {
+        width: 90%;
+        grid-template-columns: 1fr;
+        height: 400px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        
+    }
+  .curve .head .wrapper .grid2 img
+{
+    height: 250px;
+}
+.tasks
+{
+  margin-top: 0;
+}
+.tasks .heading
+{
+  transform: translateY(70px);
+}
+
+.tasks .taskwrap,
+.tasks .taskwrap1
+{
+  width: 80%;
+  display: grid;
+  grid-template-columns:  1fr;
+  grid-row-gap: 30px;
+  height: 400px;
+  margin-top: 100px;
+  place-items: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.tasks .taskwrap .box1,
+.tasks .taskwrap1 .box2
+{
+  height: 300px;
+}
+.interface
+{
+  width: 100%;
+  height: 1200px;
+  transform: translateY(130px);
+  z-index: -220;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+.interface .experience
+  {
+    transform: translateY(200px);
+    font-size: 25px;
+  } 
+  .interface .head
+  {
+    font-size: 30px;
+    background-color: transparent;
+    color: #fff;
+    transform: translateY(180px);
+  }
+  .interface .experience .cont
+  {
+    width: 106%;
+    display: grid;
+    grid-template-columns:1fr 5fr;
+    transform: translate(-50px,400px);
+  }
+  .interface .experience .cont .head2
+  {
+
+    text-align: right;
+    transform: translateX(73px);
+    position: relative;
+    z-index: 21;
+    color: #fff;
+    mix-blend-mode: difference;
+    display:grid;
+    place-items: center;
+  }
+  .interface .experience .cont .contbox
+  {
+    width: 100%;
+    font-size: 10px;
+  }
+  .interface .experience .margtop
+  {
+    width: 106%;
+    display: grid;
+    grid-template-columns:1fr 5fr;
+    height: 120px;
+    transform: translate(-50px,500px);
+
+  }
+  .bel
+  {
+    transform: translateY(120px);
+  }
+  .maincont
+  {
+    width: 100%;
+  }
+  .allpros .card
+  {
+    max-width: 260px;
+    flex-direction: column;
+    height: auto;
+  }
+  .allpros .card:hover
+  {
+    border: none;
+  }
+  .allpros .card .imgBx
+  {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .allpros .card:hover .imgBx
+  {
+    width: 100%;
+    height: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    left: 0;
+  }
+  .allpros .card:hover .imgBx span
+  {
+    font-size: 30px;
+    opacity: 1;
+  }
+  .allpros .card .imgBx i
+  {
+    transition: 0.3s;
+  }
+  .allpros .card:hover .imgBx i
+  {
+    font-size: 0;
+    opacity: 0;
+  }
+  .allpros .card .content
+  {
+    position: relative;
+    width: 100%;
+    border: none;
+  }
+  .allpros .card .content h3{
+    font-size: 0;
+  }
+  .allpros .card .content p
+    {
+      font-size: 10px;
+    }
+    .projects .menu button
+    {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 13px;
+    }
+    footer .allcont
+{
+  opacity: 1;
+  width: 300px;
+  text-align: center;
+}
+  }
+  footer ul
+{
+  list-style: none;
+}
+footer .fotbox
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+  @media only screen and (max-width: 500px)
+{
+
+
+  .contact-info:before {
+    display: none;
+  }
+
+  .square,
+  .big-circle {
+    display: none;
+  }
+  .form
+  {
+    width: 90%;
+  }
+  form,
+  .contact-info {
+    padding: 1.7rem 1.6rem;
+  }
+
+  .text,
+  .information,
+  .social-media p {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 1.15rem;
+  }
+
+  .social-icons a {
+    line-height: 30px;
+  }
+
+  .icon {
+    width: 23px;
+  }
+
+  .input {
+    padding: 0.45rem 1.2rem;
+  }
+
+  .btn {
+    padding: 0.45rem 1.2rem;
+  }
+}
+
+  @media only screen and (max-width: 400px)
+  { .curve .head .wrapper .grid1 .name
+    {
+        font-size: 40px;
+    
+    }
+     .curve .head .wrapper .grid2 img
+    {
+        height: 200px;
+    }
+.tasks .heading
+{
+  transform: translateY(70px);
+}
+
+.tasks .taskwrap
+{
+  width: 80%;
+  display: grid;
+  grid-template-columns:  1fr;
+  grid-row-gap: 30px;
+  height: 400px;
+  margin-top: 100px;
+  place-items: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.tasks .taskwrap .box1
+{
+  height: 300px;
+}
+.interface
+{
+  width: 100%;
+  height: 1350px;
+  transform: translateY(130px);
+  z-index: -220;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+.interface .experience
+  {
+    transform: translateY(200px);
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+  } 
+  .interface .head
+  {
+    width: 100%;
+    font-size: 30px;
+    background-color: transparent;
+    color: #fff;
+    transform: translateY(100px);
+  }
+  .interface .experience .cont
+  {
+    display: grid;
+    grid-template-columns:1fr;
+    transform: translate(0,400px);
+    place-items: center;
+    width: 90%;
+  }
+  .interface .experience .cont .head2
+  {
+
+    transform: translateX(0);
+    text-align: center;
+    position: relative;
+    z-index: 21;
+    color: #fff;
+    display:grid;
+    
+  }
+  .interface .experience .cont .contbox
+  {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 10px;
+    padding-left:20px;
+    text-align: center;
+  }
+  .interface .experience .margtop
+  {
+    display: grid;
+    grid-template-columns:1fr;
+    height: 120px;
+    transform: translateY(500px);
+    place-items: center;
+
+  }
+  .projects .menu button
+  {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  }
